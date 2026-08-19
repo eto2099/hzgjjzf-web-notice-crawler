@@ -4,7 +4,7 @@ hz住房公积金管理中心 — 执法公告信息采集爬虫。
 
 ## 目标站点
 
-https://gjj.hangzhou.gov.cn/col/col1229287674/index.html
+https://gjj.h angz hou.gov.cn/col/col1229287674/index.html
 
 采集「执法公告」栏目下的公告列表及详情，包括标题、发布日期、来源、正文内容等字段。
 
