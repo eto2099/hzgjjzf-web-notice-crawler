@@ -4,7 +4,7 @@
 执行目标站点「执法公告」栏目的公告信息采集，并核对采集结果。
 
 ## 环境与准备
-- 项目目录：`D:\admin\works\ai\hzgjjzf`，必须在该目录（仓库根目录）下运行，否则日志/输出会写到错误位置。
+- 项目目录：`c:\******\hzgjjzf`，必须在该目录（仓库根目录）下运行，否则日志/输出会写到错误位置。
 - Python 虚拟环境：`.venv`（已存在）。用 `.venv\Scripts\python.exe` 执行，不要用系统 python。
 - 依赖已装好（含 `brotli`，详情页是 brotli 压缩，缺它详情解析全空）。如需补装：`.venv\Scripts\python.exe -m pip install -r requirements.txt`。
 - 采集刻意慢（每次请求随机延迟 3–8s、失败重试带退避）。**禁止移除延迟或调小 MAX_RETRIES**，等待时要有耐心。

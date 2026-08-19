@@ -1,6 +1,6 @@
 # hzgjjzf
 
-杭州住房公积金管理中心 — 执法公告信息采集爬虫。
+hz住房公积金管理中心 — 执法公告信息采集爬虫。
 
 ## 目标站点
 
@@ -15,7 +15,7 @@ hzgjjzf/
 ├── src/
 │   ├── spiders/
 │   │   ├── base.py              # 爬虫基类（请求、重试、延迟）
-│   │   └── hzgjj_spider.py      # 杭州公积金执法公告爬虫
+│   │   └── hzgjj_spider.py      # hz公积金执法公告爬虫
 │   ├── parsers/
 │   │   ├── list_parser.py       # 列表页解析器
 │   │   └── detail_parser.py     # 详情页解析器
